@@ -1,0 +1,61 @@
+name: barbershop
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smooth_page_indicator: ^1.0.0
+  font_awesome_flutter: ^10.1.0  # Add this line for FontAwesome icons
+
+
+  provider: ^6.0.5
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/Alana.png
+    - assets/images/Barberking.png
+    - assets/images/Barberman.png
+    - assets/images/Hercha.png
+    - assets/images/Homepage.png
+    - assets/images/Homepage-background.png
+    - assets/images/location.png
+    - assets/images/Masterpiece.jpg
+    - assets/images/Profile.png
+    - assets/images/setting.png
+    - assets/images/star.png
+    - assets/images/Twinsky.png
+    - assets/images/Varcity.png
+
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+        - asset: assets/fonts/PlusJakartaSans-BoldItalic.ttf
+        - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+        - asset: assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf
+        - asset: assets/fonts/PlusJakartaSans-ExtraLight.ttf
+        - asset: assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf
+        - asset: assets/fonts/PlusJakartaSans-Italic.ttf
+        - asset: assets/fonts/PlusJakartaSans-Light.ttf
+        - asset: assets/fonts/PlusJakartaSans-LightItalic.ttf
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+        - asset: assets/fonts/PlusJakartaSans-MediumItalic.ttf
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+        - asset: assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf
